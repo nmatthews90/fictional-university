@@ -3,3 +3,7 @@ Theme Name: Fictional University
 Author: Natasha Matthews
 Version: 1.0
 */
+
+body {
+  color: darkgoldenrod;
+}
