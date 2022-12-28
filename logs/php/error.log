@@ -1,2 +1,7 @@
 [25-Dec-2022 20:18:08 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 6
 [27-Dec-2022 17:08:49 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 30
+[28-Dec-2022 16:04:59 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 27
+[28-Dec-2022 16:04:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 372
+[28-Dec-2022 16:04:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 373
+[28-Dec-2022 16:05:02 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 27
+[28-Dec-2022 16:10:04 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 30
