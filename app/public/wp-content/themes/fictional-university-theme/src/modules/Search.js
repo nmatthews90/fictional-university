@@ -61,6 +61,7 @@ class Search {
             .join("")}
           ${posts.length ? "</ul>" : ""}
         `);
+        this.isSpinnerVisible = false;
       }
     );
   }
