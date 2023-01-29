@@ -9,9 +9,10 @@ function universityRegisterSearch() {
     ));
 }
 
-function universitySearchResults() {
+function universitySearchResults($data) {
     $professors = new WP_Query(array(
-        'post_type' => 'professor'
+        'post_type' => 'professor',
+        's' => sanitize_text_field($data['term']) 
     ));
 
     $professorsResults = array();
@@ -21,7 +22,7 @@ function universitySearchResults() {
         array_push($professorsResults, array(
             'title' => get_the_title(),
             'permalink' => get_the_permalink(),
-            
+
         ));
     }
 
