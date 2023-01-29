@@ -1,6 +1,5 @@
 <?php
 
-
 add_action('rest_api_init', 'universityRegisterSearch');
 
 function universityRegisterSearch() {
@@ -11,5 +10,20 @@ function universityRegisterSearch() {
 }
 
 function universitySearchResults() {
-    return "Congrats, You created a route";
+    $professors = new WP_Query(array(
+        'post_type' => 'professor'
+    ));
+
+    $professorsResults = array();
+
+    while($professors->have_posts()) {
+        $professors->the_post();
+        array_push($professorsResults, array(
+            'title' => get_the_title(),
+            'permalink' => get_the_permalink(),
+            
+        ));
+    }
+
+    return $professorsResults;
 }
