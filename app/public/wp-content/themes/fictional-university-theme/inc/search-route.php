@@ -30,6 +30,8 @@ function universitySearchResults($data) {
             array_push($results['generalInfo'], array(
             'title' => get_the_title(),
             'permalink' => get_the_permalink(),
+            'postType' => get_post_type(),
+            'authorName' => get_the_author(),
         ));
         }
 
@@ -40,7 +42,7 @@ function universitySearchResults($data) {
         ));
         }
 
-        if (get_post_type() == 'programs') {
+        if (get_post_type() == 'program') {
             array_push($results['programs'], array(
             'title' => get_the_title(),
             'permalink' => get_the_permalink(),
