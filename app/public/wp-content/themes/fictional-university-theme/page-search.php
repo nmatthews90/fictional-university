@@ -46,15 +46,10 @@ get_header();
       <?php } ?>
 
       <div class="generic-content">
-        <?php the_content(); ?>
-        <form class="search-form" method="get" action="<?php echo esc_url(site_url('/')); ?>">
-            <label class="headline headline--medium" for="s">Preform a New Seach</label>
-            <div class="search-form-row">
-                <input class="s" type="search" name="s" id="s" placeholder="What are you looking for?
-            ">
-                <input class="search-submit" type="submit" value="Search">
-            </div>
-        </form>
+        <?php the_content(); 
+            get_search_form();
+        ?>
+
       </div>
     </div>
     

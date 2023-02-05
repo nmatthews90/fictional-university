@@ -264,3 +264,4 @@ Stack trace:
 [05-Feb-2023 01:05:33 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 81
 [05-Feb-2023 17:14:40 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "meta_query", expecting ")" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 93
 [05-Feb-2023 17:25:25 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 54
+[05-Feb-2023 18:27:27 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php on line 5
