@@ -18,8 +18,7 @@ get_header();
             <span class="metabox__main"><?php the_title(); ?></span>
         </p>
       </div>
-      <?php }
-    ?>
+      <?php } ?>
 
       <?php 
       $testArray = get_pages(array(
@@ -48,10 +47,18 @@ get_header();
 
       <div class="generic-content">
         <?php the_content(); ?>
+        <form class="search-form" method="get" action="<?php echo esc_url(site_url('/')); ?>">
+            <label class="headline headline--medium" for="s">Preform a New Seach</label>
+            <div class="search-form-row">
+                <input class="s" type="search" name="s" id="s" placeholder="What are you looking for?
+            ">
+                <input class="search-submit" type="submit" value="Search">
+            </div>
+        </form>
       </div>
-    
+    </div>
     
 
-</div>
+
  <?php } get_footer();
 ?>
