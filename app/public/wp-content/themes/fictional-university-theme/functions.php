@@ -124,3 +124,9 @@ function noSubsAdminBar() {
     show_admin_bar(false);
   }
 }
+
+// customize login screen
+add_filter('login_headerurl', 'ourHeaderURL');
+function ourHeaderURL() {
+  return esc_url(site_url('/'));
+}
