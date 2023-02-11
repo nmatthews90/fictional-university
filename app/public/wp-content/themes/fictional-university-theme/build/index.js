@@ -2181,6 +2181,9 @@ class MyNotes {
   //Methods will go here
   deleteNote() {
     jquery__WEBPACK_IMPORTED_MODULE_0___default().ajax({
+      beforeSend: xhr => {
+        xhr.setRequestHeader("X-WP-Nonce", universityData.nonce);
+      },
       url: universityData.root_url + "/wp-json/wp/v2/note/104",
       type: "DELETE",
       success: response => {
