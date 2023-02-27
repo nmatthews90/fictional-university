@@ -297,3 +297,11 @@ Stack trace:
 [19-Feb-2023 19:45:51 UTC] PHP Warning:  Attempt to read property "ID" on null in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 55
 [19-Feb-2023 19:46:08 UTC] PHP Warning:  Undefined array key 0 in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 55
 [19-Feb-2023 19:46:08 UTC] PHP Warning:  Attempt to read property "ID" on null in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 55
+[27-Feb-2023 00:13:02 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ourSettingPageHTML" not found or invalid function name in /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/Natasha/Local Sites/fictional-university/app/public/wp-admin/admin.php(259): do_action('settings_page_w...')
+#3 /Users/Natasha/Local Sites/fictional-university/app/public/wp-admin/options-general.php(10): require_once('/Users/Natasha/...')
+#4 {main}
+  thrown in /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 308
