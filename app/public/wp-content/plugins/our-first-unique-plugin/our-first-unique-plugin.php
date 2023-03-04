@@ -10,6 +10,20 @@
 class WordCountAndTimePlugin {
     function __construct() {
         add_action('admin_menu', array($this, 'adminPage'));
+        add_action('admin_init', array($this, 'settings'));
+    }
+
+    function settings() {
+        add_settings_section('wcp_first_section', null, null, 'word-count-setting-page');
+        add_settings_field('wcp_location', 'Display Location', array($this, 'locationHTML'), 'word-count-settings-page', 'wcp_first_section');
+        register_setting('wordcountplugin', 'wcp_location', array(
+            'sanitize_callback' => 'sanitize_text_field',
+            'default' => '0'
+        ));
+    }
+
+    function locationHTML() {
+        
     }
 
     function adminPage() {
