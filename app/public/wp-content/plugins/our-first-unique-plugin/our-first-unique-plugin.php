@@ -134,5 +134,7 @@ class WordCountAndTimePlugin {
 
 $wordCountAndTimePlugin = new WordCountAndTimePlugin();
 
+?>
+
 
 
