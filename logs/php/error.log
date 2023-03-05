@@ -317,3 +317,14 @@ Stack trace:
 #6 /Users/Natasha/Local Sites/fictional-university/app/public/wp-admin/options-general.php(10): require_once('/Users/Natasha/...')
 #7 {main}
   thrown in /Users/Natasha/Local Sites/fictional-university/app/public/wp-admin/includes/template.php on line 1785
+[05-Mar-2023 16:24:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 0 passed in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-first-unique-plugin/our-first-unique-plugin.php on line 15 and at least 2 expected in /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/plugin.php:121
+Stack trace:
+#0 /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-first-unique-plugin/our-first-unique-plugin.php(15): add_filter()
+#1 /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-first-unique-plugin/our-first-unique-plugin.php(93): WordCountAndTimePlugin->__construct()
+#2 /Users/Natasha/Local Sites/fictional-university/app/public/wp-settings.php(447): include_once('/Users/Natasha/...')
+#3 /Users/Natasha/Local Sites/fictional-university/app/public/wp-config.php(93): require_once('/Users/Natasha/...')
+#4 /Users/Natasha/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/Natasha/...')
+#5 /Users/Natasha/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/Natasha/...')
+#6 {main}
+  thrown in /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 121
+[05-Mar-2023 16:26:54 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-first-unique-plugin/our-first-unique-plugin.php on line 18
