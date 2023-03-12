@@ -27,13 +27,30 @@ class OurWordFilterPlugin {
         wp_enqueue_style('filterAdminCss', plugin_dir_url(__FILE__) . 'styles.css');
     }
 
+    function handleForm() {
+        if(wp_verify_nonce($_POST['ourNonce'], 'saveFilterWords') && current_user_can('manage_options') ) {
+            update_option('plugin_words_to_filter', sanitize_text_field($_POST['plugin_words_to_filter'])); ?>
+        <div class="updated">
+            <p>Your filtered words were saved.</p>
+        </div>
+        <?php } else { ?>
+            <div class="error">
+                <p>Sorry, you do not have permission to preform this action.</p>
+            </div>
+        <?php }
+        
+    }
+
     function wordFilterPage() { ?>
         <div class="wrap">
             <h1>Word Filter</h1>
-            <form action="POST">
+            <?php if (isset($_POST["justsubmitted"]) && $_POST['justsubmitted'] == "true") $this->handleForm(); ?>
+            <form method="POST">
+                <input type="hidden" name="justsubmitted" value="true">
+                <?php wp_nonce_field('saveFilterWords', 'ourNonce') ?>
                 <label for="plugin_words_to_filter"><p>Enter a <strong>comma-separated</strong> list of words to filter from your site's content. </p></label>
                 <div class="word-filter__flex-container">
-                    <textarea name="plugin_words_to_filter" id="plugin_words_to_filter" placeholder="bad, mean, aweful, horrible"></textarea> <br />  
+                    <textarea name="plugin_words_to_filter" id="plugin_words_to_filter" placeholder="bad, mean, aweful, horrible"><?php echo  esc_textarea(get_option('plugin_words_to_filter')); ?></textarea> <br />  
                 </div>
                 <div class="word-filter__flex-container">
                     <input type="submit" name="submit" id="submit" class="button button-primary" value="Save Chagnes"/>

@@ -328,3 +328,11 @@ Stack trace:
 #6 {main}
   thrown in /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 121
 [05-Mar-2023 16:26:54 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-first-unique-plugin/our-first-unique-plugin.php on line 18
+[12-Mar-2023 16:46:38 UTC] PHP Warning:  Undefined array key "justsubmitted" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-word-filter-plugin/index.php on line 34
+[12-Mar-2023 16:46:46 UTC] PHP Warning:  Undefined array key "justsubmitted" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-word-filter-plugin/index.php on line 34
+[12-Mar-2023 16:47:25 UTC] PHP Warning:  Undefined array key "justsubmitted" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-word-filter-plugin/index.php on line 33
+[12-Mar-2023 16:47:40 UTC] PHP Warning:  Undefined array key "justsubmitted" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-word-filter-plugin/index.php on line 33
+[12-Mar-2023 17:00:39 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-word-filter-plugin/index.php on line 31
+[12-Mar-2023 17:02:41 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-word-filter-plugin/index.php on line 31
+[12-Mar-2023 17:04:14 UTC] PHP Warning:  Undefined array key "ourNonce" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-word-filter-plugin/index.php on line 31
+[12-Mar-2023 17:04:19 UTC] PHP Warning:  Undefined array key "ourNonce" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-word-filter-plugin/index.php on line 31
