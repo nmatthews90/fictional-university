@@ -336,3 +336,5 @@ Stack trace:
 [12-Mar-2023 17:02:41 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-word-filter-plugin/index.php on line 31
 [12-Mar-2023 17:04:14 UTC] PHP Warning:  Undefined array key "ourNonce" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-word-filter-plugin/index.php on line 31
 [12-Mar-2023 17:04:19 UTC] PHP Warning:  Undefined array key "ourNonce" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-word-filter-plugin/index.php on line 31
+[12-Mar-2023 17:26:00 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-word-filter-plugin/index.php on line 24
+[12-Mar-2023 17:28:01 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/our-word-filter-plugin/index.php on line 26
