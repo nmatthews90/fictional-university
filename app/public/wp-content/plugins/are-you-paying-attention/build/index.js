@@ -126,7 +126,7 @@ wp.blocks.registerBlockType("ourplugin/are-you-paying-attention", {
     }));
   },
   save: function (props) {
-    return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Today the sky is ", props.attributes.skyColor, " and the grass is", " ", props.attributes.grassColor, ".");
+    return null;
   }
 });
 })();
