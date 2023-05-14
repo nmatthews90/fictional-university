@@ -440,3 +440,20 @@ Stack trace:
 [02-Apr-2023 16:10:22 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 30
 [02-Apr-2023 16:11:09 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 30
 [02-Apr-2023 16:11:09 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 30
+[02-Apr-2023 16:13:48 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 30
+[02-Apr-2023 16:13:48 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 30
+[14-May-2023 15:17:13 UTC] PHP Parse error:  syntax error, unexpected identifier "ob_start" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 31
+[14-May-2023 15:18:36 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 32
+[14-May-2023 15:18:36 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 32
+[14-May-2023 15:19:31 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 32
+[14-May-2023 15:19:31 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 32
+[14-May-2023 15:19:31 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 32
+[14-May-2023 15:19:31 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 32
+[14-May-2023 15:19:35 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 32
+[14-May-2023 15:19:35 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 32
+[14-May-2023 15:20:46 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 34
+[14-May-2023 15:20:46 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 34
+[14-May-2023 15:20:46 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 34
+[14-May-2023 15:20:46 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 34
+[14-May-2023 15:20:49 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 34
+[14-May-2023 15:20:49 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 34
