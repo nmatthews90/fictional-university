@@ -6,7 +6,12 @@ import {
   FlexItem,
   Button,
   Icon,
+  PanelBody,
+  PanelRow,
+  ColorPicker,
 } from "@wordpress/components";
+import { InspectorControls } from "@wordpress/block-editor";
+import { ChromePicker } from "react-color";
 
 (function () {
   let locked = false;
@@ -40,6 +45,7 @@ wp.blocks.registerBlockType("ourplugin/are-you-paying-attention", {
     question: { type: "string" },
     answers: { type: "array", default: [""] },
     correctAnswer: { type: "number", default: undefined },
+    bgColor: { type: "string", default: "#ebebeb" },
   },
   edit: EditComponent,
   save: function (props) {
@@ -67,7 +73,21 @@ function EditComponent(props) {
   }
 
   return (
-    <div className="paying-attention-edit-block">
+    <div
+      className="paying-attention-edit-block"
+      style={{ backgroundColor: props.attributes.bgColor }}
+    >
+      <InspectorControls>
+        <PanelBody title="Background Color">
+          <PanelRow>
+            <ChromePicker
+              color={props.attributes.bgColor}
+              onChangeComplete={(x) => props.setAttributes({ bgColor: x.hex })}
+              disableAlpha={true}
+            />
+          </PanelRow>
+        </PanelBody>
+      </InspectorControls>
       <TextControl
         label="Question:"
         value={props.attributes.question}
