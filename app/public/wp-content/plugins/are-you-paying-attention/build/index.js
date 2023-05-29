@@ -16213,6 +16213,20 @@ wp.blocks.registerBlockType("ourplugin/are-you-paying-attention", {
     bgColor: {
       type: "string",
       default: "#ebebeb"
+    },
+    theAlignment: {
+      type: "string",
+      default: "left"
+    }
+  },
+  description: "Give your audience a chance to prove their comprehension",
+  example: {
+    attributes: {
+      question: "What is my name?",
+      correctAnswer: 3,
+      answers: ["Meowsalot", "Barksalot", "Purrsloud", "Brad"],
+      theAlignment: "center",
+      bgColor: "#CFE8F1"
     }
   },
   edit: EditComponent,
@@ -16249,7 +16263,12 @@ function EditComponent(props) {
     style: {
       backgroundColor: props.attributes.bgColor
     }
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.InspectorControls, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelBody, {
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.BlockControls, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.AlignmentToolbar, {
+    value: props.attributes.theAlignment,
+    onChange: x => props.setAttributes({
+      theAlignment: x
+    })
+  })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.InspectorControls, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelBody, {
     title: "Background Color"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelRow, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_color__WEBPACK_IMPORTED_MODULE_4__.ChromePicker, {
     color: props.attributes.bgColor,
