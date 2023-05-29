@@ -459,3 +459,4 @@ Stack trace:
 [14-May-2023 15:20:49 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/are-you-paying-attention/index.php on line 34
 [20-May-2023 16:20:20 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
 [20-May-2023 16:20:20 UTC] Cron reschedule event error for hook: wp_scheduled_auto_draft_delete, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[29-May-2023 18:17:21 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/class-wp-customize-widgets.php on line 900
