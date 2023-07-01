@@ -460,3 +460,33 @@ Stack trace:
 [20-May-2023 16:20:20 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
 [20-May-2023 16:20:20 UTC] Cron reschedule event error for hook: wp_scheduled_auto_draft_delete, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
 [29-May-2023 18:17:21 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/class-wp-customize-widgets.php on line 900
+[01-Jul-2023 17:15:37 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 32
+[01-Jul-2023 17:53:37 UTC] PHP Parse error:  Unclosed '{' on line 9 does not match ')' in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 13
+[01-Jul-2023 17:53:41 UTC] PHP Parse error:  Unclosed '{' on line 9 does not match ')' in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 13
+[01-Jul-2023 17:53:41 UTC] PHP Parse error:  Unclosed '{' on line 9 does not match ')' in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 13
+[01-Jul-2023 17:53:41 UTC] PHP Parse error:  Unclosed '{' on line 9 does not match ')' in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 13
+[01-Jul-2023 17:53:49 UTC] PHP Parse error:  Unclosed '{' on line 9 does not match ')' in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 13
+[01-Jul-2023 17:53:49 UTC] PHP Parse error:  Unclosed '{' on line 9 does not match ')' in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 13
+[01-Jul-2023 17:54:04 UTC] PHP Parse error:  Unclosed '{' on line 9 does not match ')' in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 13
+[01-Jul-2023 17:54:04 UTC] PHP Parse error:  Unclosed '{' on line 9 does not match ')' in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 13
+[01-Jul-2023 17:54:04 UTC] PHP Parse error:  Unclosed '{' on line 9 does not match ')' in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 13
+[01-Jul-2023 17:54:37 UTC] PHP Parse error:  Unclosed '{' on line 9 does not match ')' in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 13
+[01-Jul-2023 17:55:23 UTC] PHP Parse error:  Unclosed '{' on line 9 does not match ')' in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 13
+[01-Jul-2023 17:55:23 UTC] PHP Parse error:  Unclosed '{' on line 9 does not match ')' in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 13
+[01-Jul-2023 17:55:38 UTC] PHP Parse error:  Unclosed '{' on line 9 does not match ')' in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 13
+[01-Jul-2023 17:59:40 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 24
+[01-Jul-2023 18:01:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function arrasy_key_last() in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php:24
+Stack trace:
+#0 /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/featured-professor.php(33): generateProfessorHTML('66')
+#1 /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/class-wp-block.php(256): FeaturedProfessor->renderCallback(Array, '', Object(WP_Block))
+#2 /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#3 /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#4 /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:paragra...')
+#5 /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:paragra...', Array)
+#6 /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:paragra...')
+#7 /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php(18): the_content()
+#8 /Users/Natasha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/Natasha/...')
+#9 /Users/Natasha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/Natasha/...')
+#10 /Users/Natasha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/Natasha/...')
+#11 {main}
+  thrown in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 24
