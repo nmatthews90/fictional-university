@@ -490,3 +490,8 @@ Stack trace:
 #10 /Users/Natasha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/Natasha/...')
 #11 {main}
   thrown in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/inc/generateProfessorHTML.php on line 24
+[02-Jul-2023 17:36:55 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 29
+[02-Jul-2023 17:36:56 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 29
+[02-Jul-2023 17:37:00 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 29
+[02-Jul-2023 17:37:00 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 29
+[02-Jul-2023 17:37:00 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 29
