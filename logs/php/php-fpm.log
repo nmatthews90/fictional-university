@@ -149,3 +149,16 @@
 [01-Jul-2023 13:16:24] NOTICE: exiting, bye-bye!
 [02-Jul-2023 11:52:58] NOTICE: fpm is running, pid 32553
 [02-Jul-2023 11:52:58] NOTICE: ready to handle connections
+[02-Jul-2023 13:03:05] NOTICE: Terminating ...
+[02-Jul-2023 13:03:05] NOTICE: Terminating ...
+[02-Jul-2023 13:03:05] NOTICE: exiting, bye-bye!
+[03-Jul-2023 09:23:13] NOTICE: fpm is running, pid 51827
+[03-Jul-2023 09:23:13] NOTICE: ready to handle connections
+[03-Jul-2023 09:23:13] ERROR: Another FPM instance seems to already listen on /Users/Natasha/Library/Application Support/Local/run/A395wTMtZ/php/php-fpm.socket
+[03-Jul-2023 09:23:13] ERROR: FPM initialization failed
+[03-Jul-2023 09:23:14] ERROR: Another FPM instance seems to already listen on /Users/Natasha/Library/Application Support/Local/run/A395wTMtZ/php/php-fpm.socket
+[03-Jul-2023 09:23:14] ERROR: FPM initialization failed
+[03-Jul-2023 09:23:15] ERROR: Another FPM instance seems to already listen on /Users/Natasha/Library/Application Support/Local/run/A395wTMtZ/php/php-fpm.socket
+[03-Jul-2023 09:23:15] ERROR: FPM initialization failed
+[03-Jul-2023 09:23:16] ERROR: Another FPM instance seems to already listen on /Users/Natasha/Library/Application Support/Local/run/A395wTMtZ/php/php-fpm.socket
+[03-Jul-2023 09:23:16] ERROR: FPM initialization failed
