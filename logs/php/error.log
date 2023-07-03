@@ -495,3 +495,4 @@ Stack trace:
 [02-Jul-2023 17:37:00 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 29
 [02-Jul-2023 17:37:00 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 29
 [02-Jul-2023 17:37:00 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 29
+[03-Jul-2023 15:07:13 UTC] PHP Warning:  Undefined array key "profId" in /Users/Natasha/Local Sites/fictional-university/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 49
