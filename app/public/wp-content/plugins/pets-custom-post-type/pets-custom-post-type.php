@@ -49,7 +49,7 @@ require_once plugin_dir_path(__FILE__) . 'inc/CreatePets.php';
 //add_action('admin_head', 'insertPetPosts');
 
 function insertPetPosts() {
-  for ($i = 0; $i < 84000; $i++) {
+  for ($i = 0; $i < 10; $i++) {
     $pet = generatePet();
 
     wp_insert_post(array(
