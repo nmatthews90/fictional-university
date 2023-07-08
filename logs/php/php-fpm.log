@@ -162,3 +162,8 @@
 [03-Jul-2023 09:23:15] ERROR: FPM initialization failed
 [03-Jul-2023 09:23:16] ERROR: Another FPM instance seems to already listen on /Users/Natasha/Library/Application Support/Local/run/A395wTMtZ/php/php-fpm.socket
 [03-Jul-2023 09:23:16] ERROR: FPM initialization failed
+[04-Jul-2023 14:47:47] NOTICE: Terminating ...
+[04-Jul-2023 14:47:47] NOTICE: Terminating ...
+[04-Jul-2023 14:47:47] NOTICE: exiting, bye-bye!
+[08-Jul-2023 11:34:03] NOTICE: fpm is running, pid 24697
+[08-Jul-2023 11:34:03] NOTICE: ready to handle connections
